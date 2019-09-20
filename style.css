@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 Theme Name: CodeCobra
 Theme URI: https://github.com/tidythemes/CodeCobra
@@ -266,3 +267,80 @@ section {
 body {
     background-color: yellow;
 }
+=======
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+ol {
+  margin: 0;
+}
+
+:root {
+  --dark-color: #222;
+  --gray-color: #888;
+  --highlight-color: tomato;
+
+  --main-font: "Open Sans";
+  --title-font: "Fira Code";
+}
+
+body {
+  color: var(--dark-color);
+  font-family: var(--main-font);
+}
+
+.container {
+  max-width: 1200px;
+  width: 95%;
+  margin: auto;
+}
+
+#header {
+  background-color: var(--dark-color);
+}
+
+#header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 20px 20px;
+}
+
+.site-title {
+  text-decoration: none;
+  color: white;
+  font-size: 2.3em;
+  font-family: var(--title-font);
+}
+
+.site-title span {
+  color: var(--highlight-color);
+}
+
+.site-subtitle {
+  font-size: 1.2em;
+  color: white;
+  line-height: 5px;
+  text-align: right;
+}
+
+nav {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  line-height: 0;
+}
+
+nav a {
+  color: var(--highlight-color);
+  text-decoration: none;
+  display: block;
+}
+>>>>>>> e9065799a32357d2cfe8f51d9e49cf25bcf094a4
